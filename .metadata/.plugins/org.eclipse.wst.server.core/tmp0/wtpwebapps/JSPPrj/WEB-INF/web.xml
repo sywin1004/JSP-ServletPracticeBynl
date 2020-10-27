@@ -21,6 +21,7 @@
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
   version="4.0"
   metadata-complete="false">
+  <!-- metadata-complete를 true 에서 false 로 바꿔야만 anotation을 이용한 url 매핑이 가능하다 -->
 
 <!--   <servlet>
 	<servlet-name>na</servlet-name>
