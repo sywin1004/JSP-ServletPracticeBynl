@@ -60,6 +60,7 @@ public class Nana extends HttpServlet{
 		String temp = req.getParameter("cnt");
 		int cnt = 100;
 		
+		// cnt 가 null이 아니고 빈 문자열이 아닐 때
 		if(temp != null && !temp.equals("")) {
 			cnt = Integer.parseInt(temp);			
 		}
